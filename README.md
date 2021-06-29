@@ -28,7 +28,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## My process
 
-- 
+- Using this [CSS Reset](https://meyerweb.com/eric/tools/css/reset/). Wrapped all content in a div
 
 ### Built with
 
@@ -55,7 +55,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - 
+- [CSS Reset](https://meyerweb.com/eric/tools/css/reset/) - 
 - [Example resource 2](https://www.example.com) - 
 
 ## Author
