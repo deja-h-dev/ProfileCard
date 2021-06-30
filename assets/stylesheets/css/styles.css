@@ -1,6 +1,59 @@
-body {
-  background: url(/assets/imgs/bg-pattern-top.svg) no-repeat fixed top left, url(/assets/imgs/bg-pattern-bottom.svg) no-repeat fixed bottom right, #19A2AE;
-  background-size: 70%;
+p {
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0.5rem;
+  text-align: center;
+  color: #6A6F81;
+}
+
+main {
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+}
+
+.bgImgs {
+  background: url(/assets/imgs/bg-pattern-top.svg) no-repeat top -100% left -250px, url(/assets/imgs/bg-pattern-bottom.svg) no-repeat bottom -100% right -250px, #19A2AE;
+  background-size: 90%;
+}
+
+#card {
+  border-radius: 10px;
+  background: white url(/assets/imgs/bg-pattern-card.svg) no-repeat;
+  background-size: contain;
+  height: 60%;
+  min-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+#card img {
+  border-radius: 50%;
+  max-width: 100px;
+  border: 3px solid white;
+  margin: 25% auto 0;
+}
+#card .user {
+  margin: 1rem 0;
+}
+#card .user p:first-of-type span {
+  font-weight: 700;
+  color: black;
+}
+#card .user p:last-of-type {
+  font-size: small;
+}
+#card hr {
+  margin: 0;
+  border-top: 1px solid rgba(150, 150, 150, 0.1);
+}
+#card #userDetails {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+#card #userDetails .stats span {
+  font-weight: 700;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

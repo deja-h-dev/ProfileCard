@@ -38,7 +38,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
     - div.stats 3x -  number and stat is in the same p tag, number is wrapped in span.bold, br tag to give the numbers and stat name a separate line
 
 - Started styling the background and learned a lot about using the background shorthand property. First of, I didn't even know you could have multiple background images! Second, when using multiple bg imgs, the background color has to be the last value for some reason or the whole property will be invalid.
-- When I come back to this I have to figure out how to position the background images in the corners of the page.
+- I figured out how to position the background SVGs, however I'm having a hard time positioning them exactly as the design picture... This is the best I can do for right now. I'm spending too much time trying to perfect this one thing.
+- I wrapped everything in a main element and applied the background images to this instead of the body
+- Finished the card style as well as the styles for the profile image, user div and user details div. It looks fine when I have my browser window at 500px wide but everything is misaligned with its at full width. I probably need to apply a position property? So everything inside the card is positioned relative to it instead of the page? I'll try it later today or tomorrow. I'm giving myself a break.
 
 ### Built with
 
@@ -51,6 +53,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - SASS is easy to set up! I installed it via CMD instead of via NPM like I was taught in a web dev course. SASS via CMD is easier for me. Though, I'm not a command line expert.
 - Every time I fire up my project, I have to start SASS. In CMD I have to navigate to my stylesheets dir, watch my main.scss file for changes and output it to css\styles.css.
+
+```
+cd Documents\Deja Dev\WIPs\basics\ProfileCard\assets\stylesheets
+
+sass --watch main.scss css\styles.css
+```
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
