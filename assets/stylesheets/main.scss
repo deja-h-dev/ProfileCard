@@ -8,3 +8,12 @@ $darkGray: #969696;
 
 // font
 $font: 'Kumbh Sans', sans-serif;
+
+// background image
+$bgTop: url(/assets/imgs/bg-pattern-top.svg);
+$bgBottom: url(/assets/imgs/bg-pattern-bottom.svg);
+
+body{
+  background: $bgTop no-repeat fixed top left, $bgBottom no-repeat fixed bottom right, $darkCyan;
+  background-size: 70%;
+}

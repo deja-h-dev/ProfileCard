@@ -1,3 +1,6 @@
-
+body {
+  background: url(/assets/imgs/bg-pattern-top.svg) no-repeat fixed top left, url(/assets/imgs/bg-pattern-bottom.svg) no-repeat fixed bottom right, #19A2AE;
+  background-size: 70%;
+}
 
 /*# sourceMappingURL=styles.css.map */

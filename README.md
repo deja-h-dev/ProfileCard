@@ -37,6 +37,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - div#userDetails - display flex row, inside #userDetails:
     - div.stats 3x -  number and stat is in the same p tag, number is wrapped in span.bold, br tag to give the numbers and stat name a separate line
 
+- Started styling the background and learned a lot about using the background shorthand property. First of, I didn't even know you could have multiple background images! Second, when using multiple bg imgs, the background color has to be the last value for some reason or the whole property will be invalid.
+- When I come back to this I have to figure out how to position the background images in the corners of the page.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -46,7 +49,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-- 
+- SASS is easy to set up! I installed it via CMD instead of via NPM like I was taught in a web dev course. SASS via CMD is easier for me. Though, I'm not a command line expert.
+- Every time I fire up my project, I have to start SASS. In CMD I have to navigate to my stylesheets dir, watch my main.scss file for changes and output it to css\styles.css.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
